@@ -10,7 +10,7 @@
  ****************************************************/
 
 #include "Adafruit_VS1053_Library.h"
-#include "SD.h"
+#include "sd-card-library.h"
 static Adafruit_VS1053_FilePlayer *myself;
 
 #if defined(__AVR__)
